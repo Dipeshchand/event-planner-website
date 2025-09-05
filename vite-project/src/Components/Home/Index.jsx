@@ -57,7 +57,7 @@ const Index = () => {
       {/* Sidebar Menu */}
       <div className={`sidebar ${isOpen ? "active" : ""}`}>
         <button className="close-btn" onClick={toggleMenu}>×</button>
-
+        
         {/* Social Icons + Phone */}
         <div className="sidebar-top">
           <a
